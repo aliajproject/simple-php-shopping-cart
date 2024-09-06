@@ -2,7 +2,7 @@
 // databases info keys 
 $db_localhost_name = "localhost";
 $db_user_name = "root";
-$db_passwor_key =  "root";
+$db_passwor_key =  ""; // Enter the Password
 $db_databases_name = "shop_db";
 
 $conn = mysqli_connect($db_localhost_name, $db_user_name, $db_passwor_key, $db_databases_name) or die('Əlaqə uğursuz oldu !');
